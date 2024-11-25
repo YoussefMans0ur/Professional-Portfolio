@@ -14,8 +14,10 @@ header {
     background-size: cover;
     background-attachment: fixed;
 }
-.layer {
-    background-color: rgba(0, 0, 0, 0.6);
+header img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 .navbar-nav .nav-link {
     color: #111;
@@ -387,7 +389,6 @@ header {
     font-family: var(--main-font-family);
 }
 .contact .btn {
-    width: 42%; 
     background-color: #eee;
     text-align: start;
 }
@@ -395,17 +396,15 @@ header {
     border: transparent ;
     cursor: auto;
 }
-.contact .txt-area {
-    width: calc(84% + 2px + 1.5rem ) ;
+.contact textarea {
+    width: calc(50% + 16px) ;
     background-color: #eee;
     text-align: start;
 }
 .contact button {
-    margin-left: calc(4.8rem ) ;
     background-color: #1c1c1c;
     border: 1px solid #1c1c1c !important;
     color: #eee;
-    font-weight: 800;
     transition: background-color .4s , color .4s;
 }
 .contact button:hover {

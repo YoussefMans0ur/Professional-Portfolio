@@ -9,7 +9,8 @@
   </head>
   <body>
     <header id="Home">
-        <section class="layer w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+        <section class="w-100 h-100 position-relative d-flex flex-column align-items-center justify-content-center">
+          <div class="w-100 h-100 z-1 position-absolute bg-black bg-opacity-50"></div>
           <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container">
               <a class="navbar-brand fw-bolder" href="#">DANIELS</a>
@@ -43,7 +44,7 @@
               </div>
             </div>
           </nav>
-          <div class="header-content text-center text-white">
+          <div class="header-content z-2 text-center text-white">
             <div class="py-3">
               <h2 class="">Hello</h2>
               <h1 class="fw-lighter">I Am <span></span>|</h1>
@@ -664,14 +665,14 @@
         </div>
         <div class="row">
           <div class="col-md-12 mt-5 mb-3">
-            <input class="btn me-2" type="text" placeholder="Name">
-            <input class="btn ms-3" type="email" placeholder="Email">
+            <input class="btn me-2 w-25" type="text" placeholder="Name">
+            <input class="btn ms-2 w-25" type="email" placeholder="Email">
           </div>
           <div class="col-md-12">
-            <textarea class="txt-area rounded-2 border-0 ps-2 pt-2" name="" id="" placeholder="Message" cols="30" rows="7"></textarea>
+            <textarea class="rounded-2 border-0 ps-2 pt-2" name="" id="" placeholder="Message" cols="30" rows="7"></textarea>
           </div>
-          <div class="d-flex ms-md-3 mt-4">
-            <button class="rounded-2 border-0 px-5 py-2" type="submit">Submit</button>
+          <div class='d-flex justify-content-center mt-4'>
+            <button class='rounded-2 border-0 px-5 py-2 fs-5' type='submit'>Send</button>
           </div>
         </div>
       </div>
